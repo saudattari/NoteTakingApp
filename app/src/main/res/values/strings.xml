@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Note Taking App</string>
+    <string name="share">Share</string>
+    <string name="about_us">about us</string>
+    <string name="log_out">Log Out</string>
+    <string name="settings">Settings</string>
+    <string name="key">522522177878-j4601ubnglob2l4tcoa16e7k37k1uu1f.apps.googleusercontent.com</string>
+    <string name="open_nav">Open</string>
+    <string name="close_nav">Close</string>
+    <string name="notification">Notification</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id">522522177878-q3b2dvaed314ll5rkl02s295hjo0va7n.apps.googleusercontent.com</string>
+
+</resources>
