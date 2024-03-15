@@ -103,7 +103,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.share->{
                 val intent = Intent(Intent.ACTION_SEND)
                 intent.type = "text/plain"
-                startActivity(intent)
+                val body = "Check Out My New Note Taking App https://github.com/saudattari/NoteTakingApp"
+                intent.putExtra(Intent.EXTRA_TEXT ,body)
+
+                startActivity(Intent.createChooser(intent,"Share Via"))
             }
         }
         return true
